@@ -7,6 +7,11 @@ Simplest one is the "Snow" script and compute shader, so i will be demonstrating
 
 After reading this you should check the other scripts and shaders and see how they work.
 
+
+/Snow.gif
+
+
+
 ## Particle's data
 
 When opening snow.cs first thing you will see is the:
