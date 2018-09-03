@@ -21,7 +21,7 @@ public class Fountain : MonoBehaviour {
     public ComputeShader computeShader;
 
     /// Size in octet of the Particle struct. To be changed if particle struct changed.
-    private const int SIZE_PARTICLE = 24;
+    private const int SIZE_PARTICLE = 40;
 
     /// Id of the kernel used.
     private int mComputeShaderKernelID;
