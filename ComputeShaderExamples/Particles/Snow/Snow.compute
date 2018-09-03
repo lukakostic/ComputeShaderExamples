@@ -1,0 +1,29 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Particle's data
+struct Particle
+{
+	float3 position;
+	float lifetime;
+};
+
+// Particle's data, shared with the shader
+RWStructuredBuffer<Particle> particleBuffer;
+
+// Variables set from the CPU
+float deltaTime;
+
+[numthreads(256, 1, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+	float3 delta = float3(0, -2, 0); //gravity
+
+	particleBuffer[id.x].position += delta * deltaTime;
+	particleBuffer[id.x].lifetime += deltaTime;
+
+	if (particleBuffer[id.x].lifetime > 25) {
+		particleBuffer[id.x].lifetime = 0;
+		particleBuffer[id.x].position.y = 0;
+	}
+}
