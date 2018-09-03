@@ -7,11 +7,15 @@ Simplest one is the "Snow" script and compute shader, so i will be demonstrating
 
 After reading this you should check the other scripts and shaders and see how they work.
 
-
+Snow:
 
 ![](/Snow.gif)
 
+Attractor:
+
 ![](/Attractor2.gif)
+
+Fountain:
 
 ![](/Fountain.gif)
 
