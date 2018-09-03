@@ -5,6 +5,8 @@ Point is that you download the files and edit them and test, and you shall learn
 
 Simplest one is the "Snow" script and compute shader, so i will be demonstrating on it.
 
+After reading this you should check the other scripts and shaders and see how they work.
+
 ## Particle's data
 
 When opening snow.cs first thing you will see is the:
