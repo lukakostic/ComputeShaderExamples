@@ -8,11 +8,12 @@ Simplest one is the "Snow" script and compute shader, so i will be demonstrating
 After reading this you should check the other scripts and shaders and see how they work.
 
 
+
 ![](/Snow.gif)
 
 ![](/Fountain.gif)
 
-![](/Snow.gif)
+![](/Attractor2.gif)
 
 
 ## Particle's data
