@@ -1,6 +1,6 @@
 ﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
 
-Shader "XParticle/1 - FreeParticle"
+Shader "TintedAndRandom"
 {
 	Properties
 	{
