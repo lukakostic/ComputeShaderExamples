@@ -11,9 +11,11 @@ After reading this you should check the other scripts and shaders and see how th
 
 ![](/Snow.gif)
 
+![](/Attractor2.gif)
+
 ![](/Fountain.gif)
 
-![](/Attractor2.gif)
+
 
 
 ## Particle's data
