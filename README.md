@@ -216,3 +216,4 @@ to be what it says it needs to be, in this case 24 bytes:
 private const int SIZE_PARTICLE = 24;
 ~~~
 
+Now it should compile fine, with each particle moving down at its own speed.
